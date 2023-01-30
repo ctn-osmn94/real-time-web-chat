@@ -1,0 +1,83 @@
+.avatar {
+    border:0.4rem solid transparent;
+    transition: 0.5 ease-in-out;
+    border-radius: 0.5rem;
+}
+
+.selected {
+    border: 0.4rem solid #4e0eff;
+}
+.loader {
+    max-inline-size: 100%;
+}
+
+.contact {
+    display: block;
+    align-items: center;
+    color: white;
+    background: #ffffff39;
+    min-height: 4rem;
+    width: 20%;
+    padding: 0.4rem;
+    gap: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    
+}
+
+.select {
+    background-color: #9a86f3;
+}
+
+aside.EmojiPickerReact {
+    position: absolute;
+    top: -400px;
+    box-shadow: #9a86f3 0px 5px 15px;
+    border-color: #9a86f3;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 40%;
+    overflow-wrap: break-word;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    color: #d1d1d1;
+}
+
+.sended {
+    justify-content: flex-end;
+    
+}
+
+.sended>.content {
+    background-color: #4f04ff21;
+}
+
+.received{
+    justify-content: flex-start;
+}
+
+.received>.content {
+    background-color: #9900ff20;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: #9a86f3 0px 5px 15px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #9a86f3;
+    border-radius: 10px;
+  }
